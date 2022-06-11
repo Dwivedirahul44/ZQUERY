@@ -34,21 +34,21 @@ Below table contains list of Statuses/Items to be added:
 |STATUS9300|	Save Option|	Dialog Box|
 <details><summary><h3>PF_9000</h3></summary>
 Application toolbar items
-|Function Code|Type|Function Text|Icon Name|Icon Text|Info.Text|Field Name|
-|-----------|-----------|------------|--------|------|-----|----|
-|NEW|Static Text|NEW|ICON_ADD_ROW||New Tab|
-|DEL_TAB|Static Text|DEL_TAB|ICON_REMOVE_ROW||Delete Tab|
-||separator Line|
-|QWIZ|Static Text|Query Wizard|ICON_WIZARD||Query Wizard|
-||separator Line|
-|CHECK|Static Text|Execute|ICON_EXECUTE_OBJECT|Execute||
-|EXEC2PC|Static Text|Execute to PC|ICON_WRITE_FILE|Execute to file||
-|EXEC2BG|Static Text|Execute as Job|ICON_SYM_SPOOL_SERVER|Execute as a Background Job||
-|EXEC2BG|Static Text|Execute as Job|ICON_SYM_SPOOL_SERVER|Execute as a Background Job||
-||separator Line|
-|SETTING|Static Text|Settings|ICON_SETTINGS|Settings||
-|EXP|Static Text|COL/EXP|ICON_VIEW_EXPAND_HORIZONTAL|||
-||separator Line|
+|Function Code|Type       |Function Text|Icon Name|Icon Text|Info.Text|Field Name|
+|-------------|-----------|-------------|---------|---------|---------|----------|
+|NEW          |Static Text|NEW|ICON_ADD_ROW||New Tab||
+|DEL_TAB      |Static Text|DEL_TAB|ICON_REMOVE_ROW||Delete Tab||
+|             |separator Line||
+|QWIZ         |Static Text|Query Wizard|ICON_WIZARD||Query Wizard||
+|             |separator Line||
+|CHECK        |Static Text|Execute|ICON_EXECUTE_OBJECT|Execute|||
+|EXEC2PC      |Static Text|Execute to PC|ICON_WRITE_FILE|Execute to file|||
+|EXEC2BG      |Static Text|Execute as Job|ICON_SYM_SPOOL_SERVER|Execute as a Background Job|||
+|EXEC2BG      |Static Text|Execute as Job|ICON_SYM_SPOOL_SERVER|Execute as a Background Job|||
+|             |separator Line||
+|SETTING      |Static Text|Settings|ICON_SETTINGS|Settings|||
+|EXP|Static Text|COL/EXP|ICON_VIEW_EXPAND_HORIZONTAL||||
+||separator Line||
 |MAX_ROW|Dynamic Text|Execute as Job|ICON_SYM_SPOOL_SERVER|Execute as a Background Job||W-MAX_ROW|
 
 Create Separator line by right clicking on item
@@ -63,9 +63,11 @@ Add Function keys as shown in image
 |CLOSE_QWIZ|Static Text|Cancel|ICON_CANCEL|||
   </details>
 <details><summary><h3>PF_9200</h3></summary>
+ <p>
 |Function Code|Type|Function Text|Icon Name|Icon Text|Info.Text|Field Name|
 |-----------|-----------|------------|--------|------|-----|----|
-|OK_SET|Static Text|Close|ICON_OKAY|||
+|OK_SET|Static Text|Close|ICON_OKAY|blank|blank|blank|
+ </p>
 </details>
   </details>
 
