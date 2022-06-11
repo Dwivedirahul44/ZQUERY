@@ -1,13 +1,12 @@
 # ZQUERY
 Open SQL executing/testing application on SAP AS ABAP
 
-# Installation
+<details><summary><h2>Installation</h2></summary>
  Upload files and screens to your system and add GUI status manually by following below provided instructions( SAP doesnt directly allow download/upload interface for GUI-statuses,you will abapgit or SAPLINK to download and upload them ).
  ## Adding GUI-statuses
   Right click on program name and choose create -> Gui Status
   ![image](https://user-images.githubusercontent.com/43263062/173181509-a89a329a-91c3-472f-b6c8-1e03d5a8970c.png)
-  
-  ### Adding STATUS (Example)
+<details><summary><h3>Adding STATUS (Example)</h3></summary>
 Create status
 ![image](https://user-images.githubusercontent.com/43263062/173181999-c036f6f3-d361-475e-bb1a-0a7428fb585d.png)
 
@@ -24,7 +23,8 @@ Double click and select F5 or any function key of your choice and select OK.
 
 fill relavant Info and save.
 ![image](https://user-images.githubusercontent.com/43263062/173181811-7a980291-cd9e-4d5f-bc55-8c7fa3105c97.png)
-
+</details>
+ 
 Below table contains list of Statuses/Items to be added:
 |Status Name|	Short Text|	Status Type|
 |-----------|-----------|------------|
@@ -32,9 +32,8 @@ Below table contains list of Statuses/Items to be added:
 |PF_9100|	Query Wizard|	Dialog Box|
 |PF_9200|	Setting|	Dialog Box|
 |STATUS9300|	Save Option|	Dialog Box|
-
-### PF_9000
-application toolbar items
+<details><summary><h3>PF_9000</h3></summary>
+Application toolbar items
 |Function Code|Type|Function Text|Icon Name|Icon Text|Info.Text|Field Name|
 |-----------|-----------|------------|--------|------|-----|----|
 |NEW|Static Text|NEW|ICON_ADD_ROW||New Tab|
@@ -56,18 +55,18 @@ Create Separator line by right clicking on item
 ![image](https://user-images.githubusercontent.com/43263062/173182795-597a78f9-4598-4f1e-841b-3a4206db5590.png)
 Add Function keys as shown in image
 ![image](https://user-images.githubusercontent.com/43263062/173182818-d6c33953-017f-4b9b-a82c-c861bb5b0419.png)
-
-### PF_9100
+</details>
+ <details><summary><h3>PF_9100</h3></summary>
 |Function Code|Type|Function Text|Icon Name|Icon Text|Info.Text|Field Name|
 |-----------|-----------|------------|--------|------|-----|----|
 |OK_QWIZ|Static Text|Close|ICON_OKAY|||
 |CLOSE_QWIZ|Static Text|Cancel|ICON_CANCEL|||
-
-### PF_9200
+  </details>
+<details><summary><h3>PF_9200</h3></summary>
 |Function Code|Type|Function Text|Icon Name|Icon Text|Info.Text|Field Name|
 |-----------|-----------|------------|--------|------|-----|----|
 |OK_SET|Static Text|Close|ICON_OKAY|||
-
-  
+</details>
+  </details>
 
  
