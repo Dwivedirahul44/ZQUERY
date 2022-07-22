@@ -88,6 +88,8 @@ Add Function keys as shown in image
   </tbody>
  </table>
 </details>
+Create a TCODE in se93 to call ZQUERY program screen 1000 
 </details>
+
 
  
