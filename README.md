@@ -2,8 +2,13 @@
 Open SQL executing/testing application on SAP AS ABAP
 
 <details><summary><h2>Installation</h2></summary>
+<h3> Using saplink</h3>
+Use NUGG_zquery.nugg
+ <details><summary><h3>Manual</h3></summary>
  Upload files and screens to your system and add GUI status manually by following below provided instructions( SAP doesnt directly allow download/upload interface for GUI-statuses,you will abapgit or SAPLINK to download and upload them ).
-## Adding GUI-statuses
+
+ <details><summary><h3>GUI_STATUS</h3></summary>
+<h3> Adding GUI-statuses</h3>
 Right click on program name and choose create -> Gui Status
 ![image](https://user-images.githubusercontent.com/43263062/173181509-a89a329a-91c3-472f-b6c8-1e03d5a8970c.png)
 <details><summary><h3>Adding STATUS (Example)</h3></summary>
@@ -88,7 +93,28 @@ Add Function keys as shown in image
   </tbody>
  </table>
 </details>
+</details>
+<details><summary><h3>Table</h3></summary>
+ <table>
+  <thead>
+   <tr><th>Field</th><th>Key</th><th>Initial Values</th><th>Data Element</th><th>Data Type</th><th>Length</th></tr>
+  </thead>
+  <tbody>
+  create a new table to hold saved queries. <H3>ZTQUERY</H3> 
+   <tr><th>MANDT</th><th>X</th><th>X</th><th>MANDT</th><th></th><th></th></tr>  
+   <tr><th>QUERYID</th><th>X</th><th>X</th><th>GUID_32</th><th></th><th></th></tr>  
+   <tr><th>OWNER</th><th></th><th></th><th>syuname</th><th></th><th></th></tr>  
+   <tr><th>TIMESTAMP</th><th></th><th></th><th>TIMESTAMP</th><th></th><th></th></tr>   
+   <tr><th>VISIBILITY</th><th></th><th></th><th>CHAR1</th><th></th><th></th></tr>
+   <tr><th>VISIBILITY_USERS</th><th></th><th></th><th></th><th>CHAR</th><th>400</th></tr>
+   <tr><th>VISIBILITY_GROUP</th><th></th><th></th><th>CHAR200</th><th></th><th></th></tr>
+   <tr><th>TEXT</th><th></th><th></th><th>CHAR40</th><th></th><th></th></tr>
+   <tr><th>QUERY</th><th></th><th></th><th></th><th></th><th>string</th></tr>   
+  </tbody>
+ </table>
+</details>
 Create a TCODE in se93 to call ZQUERY program screen 1000 
+</details>
 </details>
 
 
