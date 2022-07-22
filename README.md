@@ -83,7 +83,8 @@ Add Function keys as shown in image
    <tr><th>Function Code</th><th>Type</th><th>Function Text</th><th>Icon Name</th><th>Icon Text</th><th>Info.Text</th><th>Field Name</th></tr>
   </thead>
   <tbody>
-   <tr><th>OK_SET</th><th>Static Text</th><th>Close</th><th>ICON_OKAY</th><th></th><th></th><th></th></tr>  
+   <tr><th>OK_SET</th><th>Static Text</th><th>Continue</th><th>ICON_OKAY</th><th></th><th></th><th></th></tr>  
+   <tr><th>CLOSE_SET</th><th>Static Text</th><th>Close</th><th>ICON_CANCEL</th><th></th><th></th><th></th></tr>     
   </tbody>
  </table>
 </details>
